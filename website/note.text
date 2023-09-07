@@ -1,0 +1,13 @@
+START 
+
+run code {
+    do {
+        if bug = false
+            finalize and save
+        else 
+            run fix (bug)
+    } while (bug = true)
+}
+
+END
+
